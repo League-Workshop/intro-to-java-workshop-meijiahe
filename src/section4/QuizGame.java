@@ -1,10 +1,19 @@
 package section4;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	
 	public static void main(String[] args) {
 		
 		// 1.  Create a variable to hold the user's score 
+		int score=0;
+		String answer=JOptionPane.showInputDialog("What is life?");
+		if(answer.equals ("eating and sleeping for rest of my life")){
+			score++;
+		
+		}
+		JOptionPane.showMessageDialog(null,score);
 		
 		// 2.  Ask the user a question 
 		
