@@ -15,6 +15,13 @@ public class QuizGame {
 		}
 		JOptionPane.showMessageDialog(null,score);
 		
+		 answer=JOptionPane.showInputDialog("What ice cream flavor do you like?");
+		if(answer.equals("strawberry")) {
+		score++;
+		}
+			JOptionPane.showMessageDialog(null,score);
+			
+		}
 		// 2.  Ask the user a question 
 		
 		// 3.  Use an if statement to check if their answer is correct
@@ -28,4 +35,4 @@ public class QuizGame {
 		// 6.  After all the questions have been asked, print the user's score 
 		
 	}
-}
+
